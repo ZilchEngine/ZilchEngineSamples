@@ -1,0 +1,8 @@
+TextContent = 
+{
+	NadaScriptBuilder = 
+	{
+		string Name = "Rhino",
+		uint64 ResourceId = 553d1194e0968ba1,
+	},
+},

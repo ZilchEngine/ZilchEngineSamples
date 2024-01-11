@@ -1,0 +1,8 @@
+TextContent = 
+{
+	NadaScriptBuilder = 
+	{
+		string Name = "Cloud",
+		uint64 ResourceId = 553c0bd525e13632,
+	},
+},

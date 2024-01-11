@@ -1,0 +1,20 @@
+class Track : NadaComponent
+{
+  [Property] var Spline = CogPath();
+  
+  function Initialize(init : CogInitializer)
+  {
+    this.LevelSettings.TrackList.Tracks.Add(this.Owner);
+  }
+  
+  function Destroyed()
+  {
+    if(this.LevelSettings != null && this.LevelSettings.TrackList != null)
+      this.LevelSettings.TrackList.Tracks.RemoveFirst(this.Owner);
+  }
+}
+
+class TrackList : NadaComponent
+{
+  var Tracks = Array[Cog]();
+}

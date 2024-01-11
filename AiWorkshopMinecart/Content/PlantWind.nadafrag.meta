@@ -1,0 +1,9 @@
+[Version:1]
+TextContent 
+{
+	NadaFragmentBuilder 
+	{
+		var Name = "PlantWind"
+		var ResourceId = 0x592c7cbc319607e7
+	}
+}

@@ -1,0 +1,39 @@
+[Version:1]
+Cog 
+{
+	var Name = ""
+	ProjectSettings 
+	{
+		var ProjectName = "AiWorkshopPlatformer"
+		var ProjectOwner = ""
+		var DefaultLevel = "Level"
+		var ProjectSpace = "Space"
+		var AutoTakeProjectScreenshot = false
+		var Guid = 0x5b4eb66527357c41
+	}
+	EditorSettings 
+	{
+		var ViewCube = true
+		var ViewCubeSize = 0.150000006
+		var AutoUpdateContentChanges = true
+	}
+	ProjectDescription 
+	{
+		var ShortDescription = ""
+		var LongDescription = ""
+		var Tags = ""
+	}
+	LauncherProjectInfo 
+	{
+		var Tags = ""
+		var Application = "ZilchEditor"
+		var Branch = ""
+		var MajorVersion = 0
+		var MinorVersion = 0
+		var PatchVersion = 0
+		var RevisionId = 2224
+		var ShortChangeSet = ""
+		var MsSinceEpoch = 0
+		var PackageExtension = "zip"
+	}
+}

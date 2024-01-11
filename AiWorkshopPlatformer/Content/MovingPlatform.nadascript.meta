@@ -1,0 +1,8 @@
+TextContent = 
+{
+	NadaScriptBuilder = 
+	{
+		string Name = "MovingPlatform",
+		uint64 ResourceId = 553c05d188e08e37,
+	},
+},

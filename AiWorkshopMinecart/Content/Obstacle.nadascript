@@ -1,0 +1,16 @@
+class Obstacle : NadaComponent
+{
+  function Initialize(init : CogInitializer)
+  {
+    //Zilch.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+  }
+
+  function OnLogicUpdate(event : UpdateEvent)
+  {
+  }
+}
+
+class EjectRider : NadaComponent
+{
+  
+}

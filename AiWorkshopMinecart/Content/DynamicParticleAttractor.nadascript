@@ -1,0 +1,18 @@
+class DynamicParticleAttractor : NadaComponent
+{
+  [Dependency] var ParticleAttractor : ParticleAttractor;
+  var Target : Cog;
+  
+  function Initialize(init : CogInitializer)
+  {
+    Zilch.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
+  }
+
+  function OnLogicUpdate(event : UpdateEvent)
+  {
+    if(this.Target == null)
+      return;
+    
+    this.ParticleAttractor.AttractPosition = this.Target.Transform.WorldTranslation;
+  }
+}
